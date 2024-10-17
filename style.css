@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+:root {
+    --boss: rgb(160, 160, 160);
+    --colors: rgb(210, 198, 198);
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./тнт.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 170px;
+    font-size: 5em;
+}
+
+.timer {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 100px;
+}
+
+button {
+    background: #fff;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 0.5em;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+    border: 1px solid #000;
+    
+}
