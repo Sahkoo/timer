@@ -168,6 +168,5 @@ button {
         "SCAN" 0,
         "XELA" 0,
         "YELA" 0;
-    border: 1px solid #000;
-    
+        padding-right: 50px;
 }
